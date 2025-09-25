@@ -5,6 +5,13 @@
 
 ---
 
+![FinSightAI Dashboard](./Landing_page.png)
+![Analysis_page](./Anlysis.png)
+![Analysis Page_2](./Analysis_pic2.png)
+
+
+
+
 ##  Features
 
 * **Company Overview**: Provides a concise summary of the company's business model, market position, and key highlights.
@@ -99,7 +106,4 @@ To run tests for the frontend:
 cd client
 npm test
 ```
-
----
-Feel free to modify this README to better fit your project's specifics.
 
