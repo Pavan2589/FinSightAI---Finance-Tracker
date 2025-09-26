@@ -82,28 +82,16 @@
 5. **Run the application**:
 
    ```bash
-   # In the client directory
-   npm start
+   DATABASE_URL=
+   DIRECT_URL=
+   NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+   CLERK_SECRET_KEY=
+   NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+   NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+   NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/onboarding
+   NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/onboarding
+   GEMINI_API_KEY=
+   RESEND_API_KEY=
+   ARCJET_KEY=
 
-   # In the server directory
-   npm run dev
-   ```
-
----
-
-## 🧪 Testing
-
-To run tests for the backend:
-
-```bash
-cd server
-npm test
 ```
-
-To run tests for the frontend:
-
-```bash
-cd client
-npm test
-```
-
